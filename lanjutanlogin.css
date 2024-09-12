@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Noto+Sans+JP:wght@100..900&family=Playwrite+BE+VLG:wght@100..400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Matemasie';
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(android-2160x1920-wallpaper_02911.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.user{
+    background: transparent;
+    border: 2px solid white;
+    backdrop-filter: blur(100px);
+    width: 440px;
+    height: 350px;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 30px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+.user.input{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px;
+}
+.input input{
+    width: 100%;
+    height: 25px;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 50px;
+    padding: 20px 40px 20px 20px;
+    font-size: 20px;
+    color: white;
+}
+.input input::placeholder{
+    color: white;
+    font-size: 20px;
+}
+.input .fa-user {
+    position: absolute;
+    right: 35px;
+    bottom: 225px;
+    color: white;
+}
+.input .fa-lock {
+    position: absolute;
+    right: 35px;
+    bottom: 160px;
+    color: white;
+}
+.input{
+    margin-bottom: 20px;
+}
+.i_dont_tuch_me{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: 15px 0 15px;
+}
+.i_dont_tuch_me label input{
+    margin-right: 8px;
+}
+.Login{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+}
+.Register{
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+img{
+    left: 200px;
+    margin-right: 200px;
+    width: 630px;
+    height: 430px;
+
+}
+
