@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Noto+Sans+JP:wght@100..900&family=Playwrite+BE+VLG:wght@100..400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Matemasie';
+}
+body{
+    background-image: url(line-grey-blue-design-metallic-hd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 200px ;
+}
+.logo{
+    color: darkturquoise;
+    font-size: 20px;
+    font-weight: 900
+}
+.NavList{
+    display: flex;
+    list-style-type: none;
+}
+.NavList li a{
+    padding: 0px 45px;
+    text-decoration: none;
+    color: darkturquoise;
+    font-size: 20px;
+    border-radius: 100px;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+li a:hover{
+    border-bottom: 5px solid aqua;
+    transition: all;
+    transition-duration: 300ms;
+    color: deeppink;
+}
+.lii{
+    position: absolute;
+    right: 100px;
+    bottom: 150px;
+}
+.ty .khokho{
+    width: 800px;
+    font-size: 40px;
+    position: absolute;
+    bottom: 400px;
+    left: 40px;
+    color: cornflowerblue;
+    font-family: "Baskervville SC", serif;
+}
+.lii img{
+    width: 650px;
+}
+.koo{
+    font-size: 20px;
+    width: 500px;
+    position: absolute;
+    bottom: 300px;
+    left: 40px;
+    color: cornflowerblue;
+    font-family: "Baskervville SC", serif;
+}
